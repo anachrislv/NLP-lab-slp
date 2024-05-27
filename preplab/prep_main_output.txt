@@ -1,0 +1,214 @@
+loading word embeddings...
+Loaded word embeddings from cache.
+
+ Loading MR Dataset
+
+1.2 - Ten first samples of training data
+
+0: ['the', 'rock', 'is', 'destined', 'to', 'be', 'the', '21st', 'century', "'s", 'new', '``', 'conan', '``', 'and', 'that', 'he', "'s", 'going', 'to', 'make', 'a', 'splash', 'even', 'greater', 'than', 'arnold', 'schwarzenegger', ',', 'jean-claud', 'van', 'damme', 'or', 'steven', 'segal', '.']
+
+1: ['the', 'gorgeously', 'elaborate', 'continuation', 'of', '``', 'the', 'lord', 'of', 'the', 'rings', '``', 'trilogy', 'is', 'so', 'huge', 'that', 'a', 'column', 'of', 'words', 'can', 'not', 'adequately', 'describe', 'co-writer/director', 'peter', 'jackson', "'s", 'expanded', 'vision', 'of', 'j', '.', 'r', '.', 'r', '.', 'tolkien', "'s", 'middle-earth', '.']
+
+2: ['effective', 'but', 'too-tepid', 'biopic']
+
+3: ['if', 'you', 'sometimes', 'like', 'to', 'go', 'to', 'the', 'movies', 'to', 'have', 'fun', ',', 'wasabi', 'is', 'a', 'good', 'place', 'to', 'start', '.']
+
+4: ['emerges', 'as', 'something', 'rare', ',', 'an', 'issue', 'movie', 'that', "'s", 'so', 'honest', 'and', 'keenly', 'observed', 'that', 'it', 'does', "n't", 'feel', 'like', 'one', '.']
+
+5: ['the', 'film', 'provides', 'some', 'great', 'insight', 'into', 'the', 'neurotic', 'mindset', 'of', 'all', 'comics', '--', 'even', 'those', 'who', 'have', 'reached', 'the', 'absolute', 'top', 'of', 'the', 'game', '.']
+
+6: ['offers', 'that', 'rare', 'combination', 'of', 'entertainment', 'and', 'education', '.']
+
+7: ['perhaps', 'no', 'picture', 'ever', 'made', 'has', 'more', 'literally', 'showed', 'that', 'the', 'road', 'to', 'hell', 'is', 'paved', 'with', 'good', 'intentions', '.']
+
+8: ['steers', 'turns', 'in', 'a', 'snappy', 'screenplay', 'that', 'curls', 'at', 'the', 'edges', ';', 'it', "'s", 'so', 'clever', 'you', 'want', 'to', 'hate', 'it', '.', 'but', 'he', 'somehow', 'pulls', 'it', 'off', '.']
+
+9: ['take', 'care', 'of', 'my', 'cat', 'offers', 'a', 'refreshingly', 'different', 'slice', 'of', 'asian', 'cinema', '.']
+
+positive 1
+positive 1
+positive 1
+positive 1
+positive 1
+positive 1
+positive 1
+positive 1
+positive 1
+positive 1
+Percentage of words that are not truncated: 98.88%
+
+ 1.3 Samples without and with using SentenceDataset 
+
+0: original: ['the', 'rock', 'is', 'destined', 'to', 'be', 'the', '21st', 'century', "'s", 'new', '``', 'conan', '``', 'and', 'that', 'he', "'s", 'going', 'to', 'make', 'a', 'splash', 'even', 'greater', 'than', 'arnold', 'schwarzenegger', ',', 'jean-claud', 'van', 'damme', 'or', 'steven', 'segal', '.']
+
+   example: [     1   1138     15  10454      5     31      1   5034    590     10
+     51     29  18513     29      6     13     19     10    223      5
+    160      8  16807    152   1414     74   5819   6681      2 400001
+   1462  43708     47   4412  26985      3      0      0      0      0
+      0      0      0      0      0]
+   label: 1
+   length: 36
+
+1: original: ['the', 'gorgeously', 'elaborate', 'continuation', 'of', '``', 'the', 'lord', 'of', 'the', 'rings', '``', 'trilogy', 'is', 'so', 'huge', 'that', 'a', 'column', 'of', 'words', 'can', 'not', 'adequately', 'describe', 'co-writer/director', 'peter', 'jackson', "'s", 'expanded', 'vision', 'of', 'j', '.', 'r', '.', 'r', '.', 'tolkien', "'s", 'middle-earth', '.']
+
+   example: [     1  78616   5135  10117      4     29      1   2371      4      1
+   6820     29  12305     15    101   1325     13      8   3236      4
+   1375     87     37  12424   4467 400001   1295   1755     10   2853
+   3139      4   6892      3   1912      3   1912      3  23463     10
+  55754      3      0      0      0]
+   label: 1
+   length: 42
+
+2: original: ['effective', 'but', 'too-tepid', 'biopic']
+
+   example: [  2038     35 400001  34277      0      0      0      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0]
+   label: 1
+   length: 4
+
+3: original: ['if', 'you', 'sometimes', 'like', 'to', 'go', 'to', 'the', 'movies', 'to', 'have', 'fun', ',', 'wasabi', 'is', 'a', 'good', 'place', 'to', 'start', '.']
+
+   example: [   84    82  1072   118     5   243     5     1  2460     5    34  2906
+     2 66408    15     8   220   242     5   466     3     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0]
+   label: 1
+   length: 21
+
+4: original: ['emerges', 'as', 'something', 'rare', ',', 'an', 'issue', 'movie', 'that', "'s", 'so', 'honest', 'and', 'keenly', 'observed', 'that', 'it', 'does', "n't", 'feel', 'like', 'one', '.']
+
+   example: [12398    20   646  2349     2    30   496  1006    13    10   101  6082
+     6 23499  4583    13    21   261    71   999   118    49     3     0
+     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0]
+   label: 1
+   length: 23
+
+BaselineDNN(
+  (embedding_layer): Embedding(400002, 50)
+  (linear): Linear(in_features=50, out_features=50, bias=True)
+  (relu): ReLU()
+  (output): Linear(in_features=50, out_features=2, bias=True)
+)
+
+Evaluation Metrics for TRAIN dataset
+
+Accuracy: 0.7237935126582279
+Recall: 0.7248504491879901
+F1 Score: 0.7217491226532233
+
+Evaluation Metrics for TEST dataset
+
+Accuracy: 0.6870265151515151
+Recall: 0.6899090261085741
+F1 Score: 0.6852746243735736
+
+ Loading Semeval2017A Dataset
+
+1.2 - Ten first samples of training data
+
+0: ['``', '@', 'MetroNorth', 'wall', 'to', 'wall', 'people', 'on', 'the', 'platform', 'at', 'South', 'Norwalk', 'waiting', 'for', 'the', '8:08', '.', 'Thanks', 'for', 'the', 'Sat', '.', 'Sched', '.', 'Great', 'sense']
+
+1: ['ang', 'sarap', 'mging', 'panganay', '.', 'Pag', 'ikaw', 'may', 'kylngan', 'wala', 'kang', 'matakbuhan', '.', ':', 'D', '101', '#', 'realtalk', '#', 'grind', '#', 'onyourown', "''"]
+
+2: ['``', 'RT', '@', 'katie_rohaley', ':', 'School', 'on', 'Monday', 'is', 'just', 'gon', 'na', 'be', 'a', 'great', 'time']
+
+3: ['Thanks', 'manager', 'for', 'putting', 'me', 'on', 'the', 'schedule', 'for', 'Sunday', "''"]
+
+4: ['``', 'Who', 'needs', 'sleep', '?', 'It', "'s", 'not', 'like', 'I', 'have', 'a', 'test', 'tomorrow', 'or', 'anything', '...']
+
+5: ['1st', 'opening', 'shift', 'in', 'quite', 'a', 'while', '...', 'This', 'should', 'be', 'interesting', '.', "''"]
+
+6: ['@', 'rob_yost', '-Hashtags', 'can', 'express', 'humor', ',', 'excitement-', 'ex', ':', '``', 'Just', 'found', 'out', 'my', 'mom', 'is', 'my', 'teacher', '.', '#', 'awkward', "''", 'or', '``', 'It', "'s", 'Monday', '!', '#', 'excited', '``']
+
+7: ['it', "'s", 'supposed', 'to', 'snow', 'from', 'midnight', 'tonight', 'until', '6pm', 'tomorrow', '?', 'oh', 'well', 'that', "'s", 'friggin', 'awesome', "''"]
+
+8: ['``', 'Grades', 'come', 'out', 'tomorrow', '#', 'soexcited']
+
+9: ['Spending', 'my', 'Saturday', 'getting', 'my', 'car', 'serviced', 'is', 'definitely', 'the', 'most', 'enjoyable', 'thing', 'I', 'could', 'do', 'with', 'my', 'time', '.', "''"]
+
+negative 0
+neutral 1
+negative 0
+negative 0
+negative 0
+positive 2
+neutral 1
+negative 0
+positive 2
+negative 0
+Percentage of words that are not truncated: 99.98789590478111%
+
+ 1.3 Samples without and with using SentenceDataset 
+
+0: original: ['``', '@', 'MetroNorth', 'wall', 'to', 'wall', 'people', 'on', 'the', 'platform', 'at', 'South', 'Norwalk', 'waiting', 'for', 'the', '8:08', '.', 'Thanks', 'for', 'the', 'Sat', '.', 'Sched', '.', 'Great', 'sense']
+
+   example: [    29  17528 400001   1016      5   1016     70     14      1   3062
+     23 400001 400001   2111     11      1 123578      3 400001     11
+      1 400001      3 400001      3 400001   1381      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0]
+   label: 0
+   length: 27
+
+1: original: ['ang', 'sarap', 'mging', 'panganay', '.', 'Pag', 'ikaw', 'may', 'kylngan', 'wala', 'kang', 'matakbuhan', '.', ':', 'D', '101', '#', 'realtalk', '#', 'grind', '#', 'onyourown', "''"]
+
+   example: [ 17685 400001 400001 400001      3 400001 148478    108 400001  74702
+  14302 400001      3     46 400001   7901   2750 400001   2750  17223
+   2750 400001     28      0      0      0      0      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0]
+   label: 1
+   length: 23
+
+2: original: ['``', 'RT', '@', 'katie_rohaley', ':', 'School', 'on', 'Monday', 'is', 'just', 'gon', 'na', 'be', 'a', 'great', 'time']
+
+   example: [    29 400001  17528 400001     46 400001     14 400001     15    121
+  49069   6183     31      8    354     80      0      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0]
+   label: 0
+   length: 16
+
+3: original: ['Thanks', 'manager', 'for', 'putting', 'me', 'on', 'the', 'schedule', 'for', 'Sunday', "''"]
+
+   example: [400001    866     11   2221    286     14      1   2659     11 400001
+     28      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0]
+   label: 0
+   length: 11
+
+4: original: ['``', 'Who', 'needs', 'sleep', '?', 'It', "'s", 'not', 'like', 'I', 'have', 'a', 'test', 'tomorrow', 'or', 'anything', '...']
+
+   example: [    29 400001   1076   4295    189 400001     10     37    118 400001
+     34      8    729   4003     47   1097    435      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0      0      0      0      0      0
+      0      0      0      0      0]
+   label: 0
+   length: 17
+
+BaselineDNN(
+  (embedding_layer): Embedding(400002, 50)
+  (linear): Linear(in_features=50, out_features=50, bias=True)
+  (relu): ReLU()
+  (output): Linear(in_features=50, out_features=3, bias=True)
+)
+
+Evaluation Metrics for TRAIN dataset
+
+Accuracy: 0.6076090149332929
+Recall: 0.5867661824688007
+F1 Score: 0.5484810784372047
+
+Evaluation Metrics for TEST dataset
+
+Accuracy: 0.5718272219422044
+Recall: 0.5604536069388967
+F1 Score: 0.5354506768039959

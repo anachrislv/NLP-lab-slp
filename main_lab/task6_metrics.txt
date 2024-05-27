@@ -1,0 +1,41 @@
+Dataset: MR
+Pre-Trained model: siebert/sentiment-roberta-large-english
+Test set evaluation
+  accuracy: 0.9259818731117825
+  recall: 0.9259818731117825
+  f1-score: 0.9259803530069484
+
+Dataset: MR
+Pre-Trained model: distilbert-base-uncased-finetuned-sst-2-english
+Test set evaluation
+  accuracy: 0.8912386706948641
+  recall: 0.8912386706948641
+  f1-score: 0.891213847502191
+
+Dataset: MR
+Pre-Trained model: textattack/bert-base-uncased-imdb
+Test set evaluation
+  accuracy: 0.7960725075528701
+  recall: 0.7960725075528701
+  f1-score: 0.795500882112677
+
+Dataset: Semeval2017A
+Pre-Trained model: cardiffnlp/twitter-roberta-base-sentiment
+Test set evaluation
+  accuracy: 0.7237870400521003
+  recall: 0.7229454214750545
+  f1-score: 0.7222115953560642
+
+Dataset: Semeval2017A
+Pre-Trained model: finiteautomata/bertweet-base-sentiment-analysis
+Test set evaluation
+  accuracy: 0.7177629436665581
+  recall: 0.7301871228078923
+  f1-score: 0.718050644575488
+
+Dataset: Semeval2017A
+Pre-Trained model: finiteautomata/beto-sentiment-analysis
+Test set evaluation
+  accuracy: 0.5505535656138065
+  recall: 0.4652751856365301
+  f1-score: 0.4685878309292264
